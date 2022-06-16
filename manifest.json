@@ -17,7 +17,7 @@
             ],
             "js": [
                 "content_script.js",
-                "difficulty.js"
+                "nodeDifficulty.js"
             ],
             "css": [
                 "content_script.css"
