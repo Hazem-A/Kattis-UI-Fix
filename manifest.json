@@ -8,8 +8,7 @@
         "128": "logo128.png"
     },
     "permissions": [
-        "storage",
-        "fileSystemProvider"
+        "storage"
     ],
     
     "content_scripts": [
@@ -28,11 +27,6 @@
         }
     ],
     
-      "file_system_provider_capabilities": {
-    "configurable": true,
-    "watchable": false,
-    "multiple_mounts": true,
-    "source": "network"
-  }
+
     
 }
