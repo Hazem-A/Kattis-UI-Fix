@@ -24,7 +24,7 @@
                 "content_script.css"
             ],
             "run_at": "document_idle"
-        }
+        },
         
         {
             "matches": [
@@ -33,9 +33,9 @@
                 "https://open.kattis.com/problem-*"
             ],
             "js":[
-                "import_diff.js"
+                "import_difficulty.js"
             ],
-     "run_at": "document_idle"
+            "run_at": "document_idle"
         }
     ],
     
