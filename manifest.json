@@ -25,6 +25,18 @@
             ],
             "run_at": "document_idle"
         }
+        
+        {
+            "matches": [
+                "https://open.kattis.com/problems",
+                "https://open.kattis.com/problems?*",
+                "https://open.kattis.com/problem-*"
+            ],
+            "js":[
+                "import_diff.js"
+            ],
+     "run_at": "document_idle"
+        }
     ],
     
 
