@@ -27,7 +27,13 @@
             "run_at": "document_idle"
         }
         
-    ]
+    ],
+    "externally_connectable":{
+           "matches": [
+               "https://open.kattis.com/problems",
+               "https://open.kattis.com/problems?*"
+    ],
+    }
     
 
     
