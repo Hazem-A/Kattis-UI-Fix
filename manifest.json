@@ -11,9 +11,6 @@
         "storage",
         "tabs"
     ],
-    "background":{
-        "service-worker": "import_difficulty.js"
-    },
     "content_scripts": [
         {
             "matches": [
@@ -21,7 +18,8 @@
             ],
             "js": [
                 "content_script.js",
-                "difficulty.js"
+                "difficulty.js",
+                "import_difficulty.js"
             ],
             "css": [
                 "content_script.css"
