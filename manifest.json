@@ -8,9 +8,12 @@
         "128": "logo128.png"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
     ],
-    
+    "background":{
+        "service-worker": "import_difficulty.js"
+    }
     "content_scripts": [
         {
             "matches": [
@@ -24,19 +27,8 @@
                 "content_script.css"
             ],
             "run_at": "document_idle"
-        },
-        
-        {
-            "matches": [
-                "https://open.kattis.com/problems",
-                "https://open.kattis.com/problems?*",
-                "https://open.kattis.com/problem-*"
-            ],
-            "js":[
-                "import_difficulty.js"
-            ],
-            "run_at": "document_idle"
         }
+        
     ]
     
 
